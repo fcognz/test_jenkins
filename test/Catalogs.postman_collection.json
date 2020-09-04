@@ -14,7 +14,7 @@
 						"id": "522b6d68-28bb-4468-bcb1-ff0b2a1341ef",
 						"exec": [
 							"pm.test(\"HTTP Code Check\", function () {\r",
-							"pm.expect(pm.response.code).to.be.oneOf([401]) });"
+							"pm.expect(pm.response.code).to.be.oneOf([200]) });"
 						],
 						"type": "text/javascript"
 					}
